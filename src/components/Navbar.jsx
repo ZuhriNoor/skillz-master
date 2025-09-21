@@ -1,50 +1,40 @@
-"use client"; // if using Next.js App Router
-
 import { useState } from "react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-white shadow-sm z-50 border-b-2">
+    <header className="w-full z-50 font-montserrat">
       <nav className="container mx-auto flex justify-between items-center py-4 px-6 md:px-12 lg:px-28">
-        
-        {/* Logo */}
+
+        {/* Logo (left) */}
         <a href="#home" className="flex items-center gap-2">
           <img 
-            src="/logo.png"  
+            src="/logo2.png"  
             alt="Skillz Master Academy Logo" 
             className="h-14 w-auto" 
           />
         </a>
 
-        {/* Desktop Nav Links */}
-        <ul className="hidden md:flex gap-6 text-lg font-medium">
-          <li><a href="#about" className="hover:text-brand-secondary">About</a></li>
-          <li><a href="#programs" className="hover:text-brand-secondary">Programs</a></li>
-          <li><a href="#careers" className="hover:text-brand-secondary">Careers</a></li>
-          <li><a href="#contact" className="hover:text-brand-secondary">Contact</a></li>
-        </ul>
-
-        {/* CTA + Contact (Desktop) */}
-        <div className="hidden md:flex items-center gap-4">
+        {/* Desktop Nav Links + CTA (all right) */}
+        <div className="hidden md:flex items-center gap-8 text-base font-medium text-gray-600">
+          <ul className="flex gap-8">
+            <li><a href="#home" className="hover:text-brand-primary font-semibold text-brand-primary">Home</a></li>
+            <li><a href="#whyus" className="hover:text-brand-primary">Why Us</a></li>
+            <li><a href="#courses" className="hover:text-brand-primary">Courses</a></li>
+            <li><a href="#career" className="hover:text-brand-primary">Career</a></li>
+          </ul>
           <a 
             href="#enroll" 
-            className="bg-brand-primary text-white px-5 py-2 rounded-lg font-semibold hover:bg-brand-secondary transition"
+            className="bg-brand-primary text-white px-6 py-2 rounded-md font-semibold hover:bg-brand-secondary transition"
           >
             Enroll Now
-          </a>
-          <a 
-            href="tel:+911234567890" 
-            className="flex items-center gap-2 bg-brand-red text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-500 transition"
-          >
-            📞 +91 12345 67890
           </a>
         </div>
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden p-2 text-brand-primary text-2xl"
+          className="md:hidden p-2 text-2xl text-brand-primary"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? "✖" : "☰"}
@@ -54,27 +44,18 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-md border-t">
-          <ul className="flex flex-col items-center gap-4 py-6 text-lg font-medium">
-            <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
-            <li><a href="#programs" onClick={() => setIsOpen(false)}>Programs</a></li>
-            <li><a href="#careers" onClick={() => setIsOpen(false)}>Careers</a></li>
-            <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+          <ul className="flex flex-col items-center gap-6 py-6 text-lg font-medium">
+            <li><a href="#home" onClick={() => setIsOpen(false)}>Home</a></li>
+            <li><a href="#whyus" onClick={() => setIsOpen(false)}>Why Us</a></li>
+            <li><a href="#courses" onClick={() => setIsOpen(false)}>Courses</a></li>
+            <li><a href="#career" onClick={() => setIsOpen(false)}>Career</a></li>
             <li>
               <a 
                 href="#enroll" 
-                className="bg-brand-primary text-white px-5 py-2 rounded-lg font-semibold hover:bg-brand-secondary transition"
+                className="bg-brand-primary text-white px-6 py-2 rounded-md font-semibold hover:bg-brand-secondary transition"
                 onClick={() => setIsOpen(false)}
               >
                 Enroll Now
-              </a>
-            </li>
-            <li>
-              <a 
-                href="tel:+911234567890" 
-                className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition"
-                onClick={() => setIsOpen(false)}
-              >
-                📞 +91 12345 67890
               </a>
             </li>
           </ul>

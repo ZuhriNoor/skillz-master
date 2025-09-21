@@ -16,15 +16,16 @@ export default {
         },
       },
       fontFamily: {
-        fredoka: ['Gabarito', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
         brand: {
-          primary: "#1e40af",   // Dark blue
-          secondary: "#3b82f6", // Light blue
-          accent: "#93c5fd",    // Extra light blue
-          neutral: "#ebf2ff",   // Light gray background
-          red: "#d4012c" //Logo red
+          primary: "#3E2CA7",   // Dark blue
+          secondary: "#5841EA", // Light blue
+          accent: "#EDF1FF",    // Extra light blue
+          neutral: "#F6F7F9",   // Light gray background
+          red: "#EE1908" //Logo red
 
         },
       },
