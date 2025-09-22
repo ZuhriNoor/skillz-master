@@ -12,7 +12,7 @@ export default function Navbar() {
           <img 
             src="/logo2.png"  
             alt="Skillz Master Academy Logo" 
-            className="h-14 w-auto" 
+            className="h-10 md:h-14 w-auto" 
           />
         </a>
 

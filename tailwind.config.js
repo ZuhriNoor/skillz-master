@@ -23,7 +23,7 @@ export default {
         brand: {
           primary: "#3E2CA7",   // Dark blue
           secondary: "#5841EA", // Light blue
-          accent: "#EDF1FF",    // Extra light blue
+          accent: "#E0E1F4",    // Extra light blue
           neutral: "#F6F7F9",   // Light gray background
           red: "#EE1908" //Logo red
 
