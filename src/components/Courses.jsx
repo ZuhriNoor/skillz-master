@@ -36,7 +36,7 @@ const coursesData = [
 
 export default function Courses() {
   return (
-    <section className="bg-[#101566] py-16 md:py-16 font-montserrat">
+    <section id='courses' className="bg-[#101566] py-16 md:py-16 font-montserrat">
       <div className="container mx-auto px-6">
 
         <div className="text-center max-w-3xl mx-auto mb-12">

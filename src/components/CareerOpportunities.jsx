@@ -10,7 +10,7 @@ const jobTitles = [
 
 export default function CareerOpportunities() {
   return (
-    <section className="relative py-16 md:py-16 overflow-hidden">
+    <section id="career" className="relative py-16 md:py-16 overflow-hidden">
       
       {/* Layer 1: The Background Image (bottom layer) */}
       <div className="absolute inset-0 z-0">

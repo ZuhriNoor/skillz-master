@@ -16,7 +16,7 @@ export default function Contact() {
               <p className="text-gray-600 mb-8 text-md">
                 We're here to help and answer any question you might have. We look forward to hearing from you.
               </p>
-              <div className="space-y-4">
+              <div className="space-y-4 text-sm md:text-md">
                 <div className="flex items-center gap-4">
                   <FiPhone size={20} className="text-brand-primary" />
                   <a href="tel:+911111111111" className="text-gray-700 hover:text-brand-primary">+91 1111111111</a>
@@ -61,7 +61,7 @@ export default function Contact() {
                   className="w-full p-3 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-secondary"
                 ></textarea>
               </div>
-              <button className="w-full bg-brand-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-brand-secondary transition md:w-auto">
+              <button className="w-full bg-brand-primary text-white px-2 md:px-6 py-3 rounded-lg font-semibold hover:bg-brand-secondary transition md:w-auto">
                 Send Message
               </button>
             </form>

@@ -16,7 +16,7 @@ const benefits = [
 
 export default function WhyUs() {
   return (
-    <section className="bg-white py-16 md:py-18 font-montserrat">
+    <section id="whyus" className="bg-white py-16 md:py-18 font-montserrat">
       <div className="container mx-auto px-6 md:px-40">
         
         <div className="text-center max-w-3xl mx-auto mb-12">

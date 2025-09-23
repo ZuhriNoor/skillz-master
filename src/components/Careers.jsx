@@ -12,7 +12,7 @@ const sectors = [
 
 export default function Careers() {
   return (
-    <section id="careers" className="bg-brand-neutral py-20 px-6">
+    <section id="" className="bg-brand-neutral py-20 px-6">
       <div className="container mx-auto">
         <h3 className="text-3xl font-bold text-center mb-12 text-brand-primary">Careers</h3>
         <div className="grid gap-12 md:grid-cols-2">
