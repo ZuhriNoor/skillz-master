@@ -11,7 +11,7 @@ import AiIntegrationSection from "./components/AiIntegrationSection";
 
 export default function App() {
   return (
-    <div className="font-fredoka bg-white text-gray-900">
+    <div className="font-montserrat bg-white text-gray-900">
       <Navbar />
       <Hero />
       <WhyUs />

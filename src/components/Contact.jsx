@@ -13,7 +13,7 @@ export default function Contact() {
             {/* Left Column: Contact Information */}
             <div className="text-gray-800">
               <h3 className="text-3xl font-bold text-brand-primary mb-2">Get In Touch</h3>
-              <p className="text-gray-600 mb-8">
+              <p className="text-gray-600 mb-8 text-md">
                 We're here to help and answer any question you might have. We look forward to hearing from you.
               </p>
               <div className="space-y-4">

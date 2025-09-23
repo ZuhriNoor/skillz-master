@@ -5,10 +5,10 @@ export default function AiIntegrationSection() {
 
         {/* Section Header */}
         <div className="max-w-3xl mb-2">
-          <h2 className="text-4xl md:text-5xl font-bold text-brand-primary">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-primary">
             AI Integrated IT
           </h2>
-          <p className="mt-4 text-lg text-brand-primary">
+          <p className="mt-4 text-md md:text-md text-brand-primary">
             Master the latest technology tools and AI-powered applications that are shaping the future of healthcare and corporate administration.
           </p>
         </div>

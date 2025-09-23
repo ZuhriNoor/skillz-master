@@ -6,7 +6,7 @@ export default function SectorCard({ icon, name }) {
         alt={`${name} icon`}
         className="h-14 w-14 sm:h-16 sm:w-16 mx-auto mb-4 object-contain"
       />
-      <p className="font-semibold text-[#101566] text-xs sm:text-base">{name}</p>
+      <p className="font-semibold text-[#101566] text-sm">{name}</p>
     </div>
   );
 }

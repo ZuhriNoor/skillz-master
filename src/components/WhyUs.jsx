@@ -30,18 +30,18 @@ export default function WhyUs() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <FeatureCard
-            image="industry-recognition.jpg"
+            image="/why1_1.jpg"
             title="Industry Recognition"
             description="Internationally recognised certification that opens doors worldwide"
           />
           <FeatureCard
-            image="/expert-mentorship.jpg"
+            image="/why1_2.jpg"
             title="Expert Mentorship"
             description="Trained by doctors and healthcare professionals with real-world experience"
             isFeatured 
           />
           <FeatureCard
-            image="/ai-learning.jpg"
+            image="/why1_3.jpg"
             title="AI-Powered Learning"
             description="Cutting-edge AI integrated IT training for the future of healthcare"
           />

@@ -30,10 +30,10 @@ export default function CareerOpportunities() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-brand-primary">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-primary">
             Career Opportunities
           </h2>
-          <p className="mt-4 text-lg text-brand-primary">
+          <p className="mt-4 text-md text-brand-primary">
             Unlock exciting career opportunities across healthcare and corporate sectors with our comprehensive training
           </p>
         </div>
@@ -45,7 +45,7 @@ export default function CareerOpportunities() {
               key={index} 
               className="flex justify-center items-center bg-white/95 rounded-lg p-4 text-center shadow-gray-500 shadow-md border border-gray-200/50"
             >
-              <span className="font-semibold text-brand-primary text-sm md:text-base">
+              <span className="font-semibold text-brand-primary text-sm md:text-sm">
                 {title}
               </span>
             </div>

@@ -3,7 +3,7 @@ import CourseCard from './CourseCard';
 
 const coursesData = [
   {
-    icon: "/path/to/hospital-icon.png", 
+    icon: "/course1.png", 
     title: "Hospital Administration & Healthcare Management",
     description: "Comprehensive training in healthcare operations, patient relations, and facility management",
     modules: [
@@ -18,7 +18,7 @@ const coursesData = [
     ],
   },
   {
-    icon: "/path/to/hr-icon.png", 
+    icon: "/course2.png", 
     title: "HR & Corporate Administration",
     description: "Master corporate operations, human resources, and business development strategies",
     modules: [
@@ -40,10 +40,10 @@ export default function Courses() {
       <div className="container mx-auto px-6">
 
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h3 className="text-xl font-semibold text-brand-accent">
+          <h3 className="text-2xl font-semibold text-brand-accent">
             Our Courses
           </h3>
-          <h2 className="text-2xl md:text-5xl font-bold text-indigo-300 mt-2">
+          <h2 className="text-2xl md:text-4xl font-bold text-indigo-300 mt-2">
             Advanced Diploma Programs
           </h2>
           <p className="mt-4 text-gray-300 font-medium">

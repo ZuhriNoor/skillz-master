@@ -12,17 +12,17 @@ const readinessData = [
     iconPosition: "right",
   },
   {
-    icon: "/QA.png",
+    icon: "/job3.png",
     text: "Common Interview Questions & Answering Techniques",
     iconPosition: "left",
   },
   {
-    icon: "/QA.png",
+    icon: "/job4.png",
     text: "Mock Interview And Practice Sessions",
     iconPosition: "right",
   },
   {
-    icon: "/QA.png",
+    icon: "/job5.png",
     text: "Job Search Strategies And Use Of Online Job Portal",
     iconPosition: "left",
   },
@@ -44,10 +44,10 @@ export default function JobReadinessSection() {
           </div>
           
           <div className="min-w-0 md:mr-1 px-5 md:px-0"> {/* This is key - allows content to shrink */}
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
               Job Readiness
             </h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-md text-gray-600">
               Comprehensive career preparation program designed to make you interview-ready and help you land your dream job in healthcare or corporate sector.
             </p>
             <div className="space-y-6 mt-10">

@@ -17,7 +17,7 @@ export default function Hero() {
 
         <div className="relative grid md:grid-cols-[60%_40%] items-center pt-6 md:pt-0">
           {/* Left Content */}
-          <div className="font-montserrat text-center md:text-left md:pl-12 lg:pl-16 md:py-8">
+          <div className="font-raleway text-center md:text-left md:pl-12 lg:pl-16 md:py-8">
             {/* Small subtitle */}
             <p className="text-brand-primary text-lg md:text-2xl font-bold mb-3">
               Advanced Diploma in
@@ -25,8 +25,7 @@ export default function Hero() {
 
             {/* Main Heading */}
             <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug">
-              HOSPITAL ADMINISTRATION & <br className="hidden md:block" />
-              HEALTHCARE MANAGEMENT
+              HOSPITAL ADMINISTRATION & HEALTHCARE MANAGEMENT
             </h1>
 
             {/* Secondary Heading */}

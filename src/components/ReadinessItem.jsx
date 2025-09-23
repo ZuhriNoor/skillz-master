@@ -12,7 +12,7 @@ export default function ReadinessItem({ icon, text, iconPosition }) {
       
       {/* The pill-shaped background */}
       <div className="w-full md:w-11/12 bg-indigo-100 rounded-full px-12 py-4 text-center">
-        <p className="font-semibold text-brand-primary">
+        <p className="font-semibold text-brand-primary text-sm">
           {text}
         </p>
       </div>
