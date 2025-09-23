@@ -40,10 +40,10 @@ export default function Courses() {
       <div className="container mx-auto px-6">
 
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h3 className="text-2xl font-semibold text-white">
+          <h3 className="text-xl font-semibold text-brand-accent">
             Our Courses
           </h3>
-          <h2 className="text-4xl md:text-5xl font-bold text-brand-accent mt-2">
+          <h2 className="text-2xl md:text-5xl font-bold text-indigo-300 mt-2">
             Advanced Diploma Programs
           </h2>
           <p className="mt-4 text-gray-300 font-medium">

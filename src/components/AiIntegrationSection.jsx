@@ -17,7 +17,7 @@ export default function AiIntegrationSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           
           {/* Left Column: AI Tools Card */}
-          <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
+          <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-100 order-2 lg:order-1">
             <p className="text-center font-semibold text-gray-500 mb-4">
               AI Integrated
             </p>
@@ -32,7 +32,7 @@ export default function AiIntegrationSection() {
           </div>
 
           {/* Right Column: Woman with Badges Image */}
-          <div>
+          <div className="order-1 lg:order-2">
             <img
               src="/AI-integrated.png" 
               alt="Woman using a phone with floating badges for AI Integrated and Career Paths"

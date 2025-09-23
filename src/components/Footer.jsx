@@ -21,7 +21,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#101566]">
       {/* Main Footer Content */}
-      <div className="container mx-auto px-6 py-12 md:py-16">
+      <div className="container mx-auto px-6 py-12 md:py-16 md:px-32">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 
           {/* Column 1: Brand and Socials */}

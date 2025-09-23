@@ -2,12 +2,12 @@ import ReadinessItem from './ReadinessItem';
 
 const readinessData = [
   {
-    icon: "/QA.png",
+    icon: "/job1.png",
     text: "ATS - Friendly Resume Preparation",
     iconPosition: "left",
   },
   {
-    icon: "/QA.png",
+    icon: "/job2.png",
     text: "Interview Training And Preparation",
     iconPosition: "right",
   },
@@ -39,7 +39,7 @@ export default function JobReadinessSection() {
             <img
               src="/woman-2.png"
               alt="Professional woman ready for a job"
-              className="relative z-10 h-auto w-3/5 md:w-full max-h-[600px] object-contain drop-shadow-bottom-right"
+              className="relative z-10 h-auto w-3/5 md:w-full max-h-[600px] bottom-9 object-contain drop-shadow-bottom-right"
             />
           </div>
           

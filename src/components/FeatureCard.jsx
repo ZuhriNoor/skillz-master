@@ -17,7 +17,7 @@ export default function FeatureCard({ image, title, description, isFeatured = fa
         className="h-32 w-37 mb-6 rounded-full object-contain" 
       />
       
-      <h3 className="text-2xl font-bold text-[#101566] mb-2">
+      <h3 className="text-xl font-bold text-[#101566] mb-2">
         {title}
       </h3>
       
