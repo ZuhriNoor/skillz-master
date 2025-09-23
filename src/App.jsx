@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/About";
 import WhyUs from "./components/WhyUs";
 import Courses from "./components/Courses";
 import CareerOpportunities from "./components/CareerOpportunities";
@@ -8,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import JobReadinessSection from "./components/JobReadiness";
 import SectorsSection from "./components/SectorsSection";
+import AiIntegrationSection from "./components/AiIntegrationSection";
 
 export default function App() {
   return (
@@ -19,6 +19,7 @@ export default function App() {
       <JobReadinessSection/>
       <CareerOpportunities />
       <SectorsSection/>
+      <AiIntegrationSection/>
       <Contact />
       <Footer />
     </div>
