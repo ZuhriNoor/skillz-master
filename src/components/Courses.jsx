@@ -36,22 +36,22 @@ const coursesData = [
 
 export default function Courses() {
   return (
-    <section className="bg-[#101566] py-16 md:py-24">
+    <section className="bg-[#101566] py-16 md:py-16 font-montserrat">
       <div className="container mx-auto px-6">
 
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h3 className="text-lg font-semibold text-white">
+          <h3 className="text-2xl font-semibold text-white">
             Our Courses
           </h3>
           <h2 className="text-4xl md:text-5xl font-bold text-brand-accent mt-2">
             Advanced Diploma Programs
           </h2>
-          <p className="mt-4 text-gray-300">
+          <p className="mt-4 text-gray-300 font-medium">
             Choose from our specialized diploma programs designed to prepare you for successful careers in healthcare management and corporate administration.
           </p>
         </div>
 
-        {/* The placeholders are now replaced by the actual CourseCard component */}
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {coursesData.map((course, index) => (
             <CourseCard

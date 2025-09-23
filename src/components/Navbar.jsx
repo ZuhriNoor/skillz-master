@@ -5,7 +5,7 @@ export default function Navbar() {
 
   return (
     <header className="w-full z-50 font-montserrat">
-      <nav className="container mx-auto flex justify-between items-center py-4 px-6 md:px-12 lg:px-28">
+      <nav className="container mx-auto flex justify-between items-center py-4 px-6 md:px-12 lg:px-32">
 
         {/* Logo (left) */}
         <a href="#home" className="flex items-center gap-2">

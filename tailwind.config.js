@@ -29,6 +29,9 @@ export default {
 
         },
       },
+      dropShadow: {
+        'bottom-right': '8px 8px 10px rgba(0, 0, 0, 0.35)',  // custom shadow
+      },
     },
   },
   plugins: [],

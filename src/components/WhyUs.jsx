@@ -17,10 +17,10 @@ const benefits = [
 export default function WhyUs() {
   return (
     <section className="bg-white py-16 md:py-18 font-montserrat">
-      <div className="container mx-auto px-6 md:px-20">
+      <div className="container mx-auto px-6 md:px-40">
         
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-4xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Why Choose US?
           </h2>
           <p className="mt-4 text-lg text-gray-600">
@@ -30,18 +30,18 @@ export default function WhyUs() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <FeatureCard
-            image="/path/to/industry-recognition.png"
+            image="industry-recognition.jpg"
             title="Industry Recognition"
             description="Internationally recognised certification that opens doors worldwide"
           />
           <FeatureCard
-            image="/path/to/expert-mentorship.png"
+            image="/expert-mentorship.jpg"
             title="Expert Mentorship"
             description="Trained by doctors and healthcare professionals with real-world experience"
             isFeatured 
           />
           <FeatureCard
-            image="/path/to/ai-learning.png"
+            image="/ai-learning.jpg"
             title="AI-Powered Learning"
             description="Cutting-edge AI integrated IT training for the future of healthcare"
           />

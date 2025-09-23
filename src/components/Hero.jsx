@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="container mx-auto relative ">
 
         {/* Gray background shape */}
-        <div className="absolute inset-y-0 left-0 md:left-28 w-full md:w-10/12 bg-neutral-100 rounded-3xl z-0"></div>
+        <div className="absolute inset-y-0 left-0 md:left-28 w-full md:w-10/12 bg-neutral-100 rounded-3xl z-0 md:ml-4"></div>
 
 
         {/* Rectangle */}
@@ -24,13 +24,13 @@ export default function Hero() {
             </p>
 
             {/* Main Heading */}
-            <h1 className="text-xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug">
               HOSPITAL ADMINISTRATION & <br className="hidden md:block" />
               HEALTHCARE MANAGEMENT
             </h1>
 
             {/* Secondary Heading */}
-            <h2 className="text-xl md:text-4xl lg:text-5xl font-bold text-brand-primary mt-3">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-brand-primary mt-3">
               HR & CORPORATE ADMINISTRATION
             </h2>
 
