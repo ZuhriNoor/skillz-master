@@ -11,7 +11,7 @@ const exploreLinks = [
 
 const programLinks = [
   { name: 'Healthcare Management', href: '#' },
-  { name:- 'HR & Corporate Admin', href: '#' },
+  { name: 'HR & Corporate Admin', href: '#' },
   { name: 'Job Readiness', href: '#' },
   { name: 'AI Training', href: '#' },
   { name: 'Personal Branding', href: '#' },
@@ -80,9 +80,11 @@ export default function Footer() {
           <div className="text-center sm:text-left">
             <h3 className="text-xl font-bold text-white mb-4">Contact</h3>
             <address className="not-italic text-gray-300 space-y-2">
-              <p><a href="tel:+911111111111" className="hover:text-white">+91 1111111111</a></p>
-              <p><a href="mailto:skillzmasters@gmail.com" className="hover:text-white">skillzmasters@gmail.com</a></p>
-              <p>ABC, Near XYZ Avenue, Kerala</p>
+              <p><a href="tel:+911111111111" className="hover:text-white">+91 9778166366</a></p>
+              <p><a href="mailto:skillzmasters@gmail.com" className="hover:text-white">skillzmaster@gmail.com</a></p>
+              <p>Skillz Master Academy,
+                    Room No. 35/2145 VK Tower, Valayanadu, Mankavu,
+                    Kozhikode, Kerala, 673007</p>
             </address>
           </div>
           

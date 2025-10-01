@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="bg-gray-50 rounded-2xl shadow-lg p-8 md:p-12">
           {/* Responsive Two-Column Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            
+
             {/* Left Column: Contact Information */}
             <div className="text-gray-800">
               <h3 className="text-3xl font-bold text-brand-primary mb-2">Get In Touch</h3>
@@ -19,15 +19,17 @@ export default function Contact() {
               <div className="space-y-4 text-sm md:text-md">
                 <div className="flex items-center gap-4">
                   <FiPhone size={20} className="text-brand-primary" />
-                  <a href="tel:+911111111111" className="text-gray-700 hover:text-brand-primary">+91 1111111111</a>
+                  <a href="tel:+911111111111" className="text-gray-700 hover:text-brand-primary">+91 9778166366</a>
                 </div>
                 <div className="flex items-center gap-4">
                   <FiMail size={20} className="text-brand-primary" />
-                  <a href="mailto:skillzmasters@gmail.com" className="text-gray-700 hover:text-brand-primary">skillzmasters@gmail.com</a>
+                  <a href="mailto:skillzmasters@gmail.com" className="text-gray-700 hover:text-brand-primary">skillzmaster@gmail.com</a>
                 </div>
                 <div className="flex items-center gap-4">
-                  <FiMapPin size={20} className="text-brand-primary" />
-                  <span className="text-gray-700">ABC, Near XYZ Avenue, Kerala</span>
+                  <FiMapPin size={20} className="h-14 w-14 text-brand-primary" />
+                  <span className="text-gray-700"> Skillz Master Academy,
+                    Room No. 35/2145 VK Tower, Valayanadu, Mankavu,
+                    Kozhikode, Kerala, 673007</span>
                 </div>
               </div>
             </div>
