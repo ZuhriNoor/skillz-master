@@ -54,7 +54,7 @@ export default function Hero() {
             />
 
             {/* Floating Badge */}
-            <div className="absolute top-3 right-0 md:top-44 md:right-80 bg-white shadow-lg rounded-full flex items-center gap-2 px-4 py-2 text-[0.6rem] md:text-base font-montserrat font-medium">
+            <div className="absolute top-16 right-0 md:top-44 md:right-80 bg-white shadow-lg rounded-full flex items-center gap-2 px-2 md:px-4 py-1 md:py-2 text-[0.6rem] md:text-base font-montserrat font-medium w-28 md:w-auto">
               <span className="bg-brand-red text-white p-2 rounded-full">📘</span>
               100+ Students Taught
             </div>
