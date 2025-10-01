@@ -26,7 +26,7 @@ export default function Contact() {
                   <a href="mailto:skillzmasters@gmail.com" className="text-gray-700 hover:text-brand-primary">skillzmaster@gmail.com</a>
                 </div>
                 <div className="flex items-center gap-4">
-                  <FiMapPin size={20} className="h-14 w-14 text-brand-primary" />
+                  <FiMapPin size={20} className="sm:h-14 sm:w-14 text-brand-primary" />
                   <span className="text-gray-700"> Skillz Master Academy,
                     Room No. 35/2145 VK Tower, Valayanadu, Mankavu,
                     Kozhikode, Kerala, 673007</span>
