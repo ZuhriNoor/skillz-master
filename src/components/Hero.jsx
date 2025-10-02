@@ -1,6 +1,11 @@
 export default function Hero() {
+
+  const whatsappNumber = "918848248186";
+  const message = "Hello, I’d like to enroll in your course!";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
   return (
-    <section className="md:min-h-screen bg-white flex items-center m-5 md:m-0 md:pt-5 pb-16 overflow-hidden relative"> 
+    <section className="md:min-h-screen bg-white flex items-center m-5 md:m-0 md:pt-5 pb-16 overflow-hidden relative">
       {/* Relative wrapper to contain both the background and the content */}
       <div className="container mx-auto relative ">
 
@@ -35,7 +40,9 @@ export default function Hero() {
 
             {/* CTA */}
             <a
-              href="#enroll"
+              href={whatsappLink} 
+              target="_blank"              
+              rel="noopener noreferrer"  
               className="mt-4 md:mt-8 inline-block bg-brand-primary text-white px-6 py-3 rounded-md text-xs md:text-lg font-montserrat font-semibold hover:bg-brand-secondary transition"
             >
               Enroll Now
@@ -44,13 +51,13 @@ export default function Hero() {
           </div>
 
           {/* Right Image with Badge */}
-          <div className="relative flex justify-center md:justify-end z-10"> 
+          <div className="relative flex justify-center md:justify-end z-10">
             {/* Main Image */}
             <img
               src="/HR-image6.png"
               alt="Students learning"
               className="h-auto w-3/5 md:w-full max-h-[650px] object-contain md:object-right"
-              
+
             />
 
             {/* Floating Badge */}
